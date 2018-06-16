@@ -5,7 +5,3 @@ class ChangeColumnsInCostumeStores < ActiveRecord::Migration[5.1]
       rename_column :costume_stores, :number_of_employees, :num_of_employees
   end
 end
-
-# t.integer :num_of_employees
-# t.datetime    :opening_time
-# t.datetime    :closing_time
